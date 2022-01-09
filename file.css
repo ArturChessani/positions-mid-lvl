@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin: 150px 0 0 30px;
+}
+
+article {
+  display: inline-block;
+  color: white;
+  font-family: serif;
+  font-weight: bolder;
+  width: 300px;
+  margin-left: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+div {
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+div:nth-child(2n) {
+  padding: 20px 0 0 25px;
+  font-size: 2em;
+}
+
+.card-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 186, 153, 1) 0%,
+    rgba(255, 152, 151, 1) 43%,
+    rgba(252, 137, 150, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+}
+
+.Logo-card-1 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.card-2 {
+  background: linear-gradient(
+    90deg,
+    rgba(139, 200, 245, 1) 0%,
+    rgba(61, 163, 233, 1) 35%,
+    rgba(73, 168, 232, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+}
+
+.Logo-card-2 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.card-3 {
+  background: linear-gradient(
+    90deg,
+    rgba(127, 217, 210, 1) 0%,
+    rgba(44, 211, 193, 1) 35%,
+    rgba(9, 208, 185, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+}
+
+.Logo-card-3 {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.ball-1 {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0.2;
+  background-color: white;
+  top: -40px;
+  left: 200px;
+}
+
+.ball-2 {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0.2;
+  background-color: white;
+  top: 100px;
+  left: 160px;
+}
+
+/* article,
+.card-1:nth-child(3n+1) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 186, 153, 1) 0%,
+    rgba(255, 152, 151, 1) 43%,
+    rgba(252, 137, 150, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+} */
