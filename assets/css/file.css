@@ -3,13 +3,17 @@
 }
 
 body {
-  display: inline-block;
   margin: 0;
   padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
   margin: 150px 0 0 30px;
 }
 
-article {
+.card {
   display: inline-block;
   color: white;
   font-family: serif;
@@ -107,8 +111,8 @@ div:nth-child(2n) {
   left: 160px;
 }
 
-/* article,
-.card-1:nth-child(3n+1) {
+/* Repeat card style 1 */
+.card:nth-child(3n+1) {
   background: linear-gradient(
     90deg,
     rgba(255, 186, 153, 1) 0%,
@@ -117,4 +121,28 @@ div:nth-child(2n) {
   );
   border-radius: 10px;
   height: 200px;
-} */
+}
+
+/* Repeat card style 2 */
+.card:nth-child(3n+2) {
+  background: linear-gradient(
+    90deg,
+    rgba(139, 200, 245, 1) 0%,
+    rgba(61, 163, 233, 1) 35%,
+    rgba(73, 168, 232, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+}
+
+/* Repeat card style 3 */
+.card:nth-child(3n+3) {
+  background: linear-gradient(
+    90deg,
+    rgba(127, 217, 210, 1) 0%,
+    rgba(44, 211, 193, 1) 35%,
+    rgba(9, 208, 185, 1) 100%
+  );
+  border-radius: 10px;
+  height: 200px;
+}
